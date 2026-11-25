@@ -1,0 +1,21 @@
+{
+  "routes": 24,
+  "viewportWidths": [
+    320,
+    390,
+    600,
+    768,
+    779,
+    900,
+    1080,
+    1081,
+    1280,
+    1440,
+    1920
+  ],
+  "layoutCombinations": 264,
+  "internalDestinations": 92,
+  "assets": 13,
+  "layoutIssues": [],
+  "runtimeIssues": []
+}

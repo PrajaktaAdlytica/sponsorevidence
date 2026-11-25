@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "data_label": "DEMO · SIMULATED DATA",
+  "product": "SponsorEvidence Placement Audit",
+  "export_type": "fictional_example",
+  "example_export_date": "2026-10-21",
+  "cases": [
+    {
+      "data_label": "DEMO · SIMULATED DATA",
+      "event": "Meridian Coast Cup · Harbor Vale FC vs. Eastmarsh Athletic",
+      "event_date": "2026-10-18",
+      "sponsor": "Northline",
+      "assigned_reviewer": {
+        "name": "Casey Noor",
+        "role": "Sponsorship Analyst"
+      },
+      "case_id": "PA-001",
+      "requirement": {
+        "agreement_id": "AGR-MCC-01",
+        "version": "v3",
+        "signed_date": "2026-10-01",
+        "term_id": "S-04",
+        "placement": "Display the approved Northline mark in the opening replay overlay on the official vertical feed.",
+        "required_feed": "Official vertical feed",
+        "required_source_id": "F-MCC-VERT-01",
+        "window": {
+          "start": "00:18:42",
+          "end": "00:18:47"
+        }
+      },
+      "sources": [
+        {
+          "id": "F-MCC-MAIN-01",
+          "type": "recorded feed",
+          "name": "Main broadcast",
+          "date": "2026-10-18",
+          "version": "v2",
+          "aspect_ratio": "16:9",
+          "available_range": {
+            "start": "00:18:42",
+            "end": "00:18:47"
+          },
+          "permission_status": "synthetic_preview_use_only"
+        },
+        {
+          "id": "F-MCC-VERT-01",
+          "type": "recorded feed",
+          "name": "Official vertical feed",
+          "date": "2026-10-18",
+          "version": "v1",
+          "aspect_ratio": "9:16",
+          "available_range": {
+            "start": "00:18:42",
+            "end": "00:18:47"
+          },
+          "permission_status": "synthetic_preview_use_only"
+        },
+        {
+          "id": "ART-NL-01",
+          "type": "approved sponsor artwork",
+          "date": "2026-10-01",
+          "version": "v2",
+          "permission_status": "synthetic_preview_use_only"
+        }
+      ],
+      "proposed_finding": {
+        "state": "possible_discrepancy",
+        "origin": "simulated computer-vision observation",
+        "summary": "The Northline mark appears on the main broadcast. It was not detected in the expected region on the required vertical replay.",
+        "source_ids": [
+          "F-MCC-MAIN-01",
+          "F-MCC-VERT-01",
+          "ART-NL-01"
+        ],
+        "detections": [
+          {
+            "source_id": "F-MCC-MAIN-01",
+            "start": "00:18:43.0",
+            "end": "00:18:46.2",
+            "estimated_visible_seconds": 3.2
+          }
+        ]
+      },
+      "coverage": {
+        "status": "complete_for_required_window",
+        "source_id": "F-MCC-VERT-01"
+      },
+      "unresolved_gap": null,
+      "reviewed_decision": {
+        "outcome": "confirmed_discrepancy",
+        "date": "2026-10-20",
+        "rationale": "The supplied vertical replay covers the required window. The reviewer found no approved mark in the required overlay."
+      },
+      "decision_history": [
+        {
+          "action": "suggested",
+          "actor_role": "Simulated computer vision",
+          "date": "2026-10-20"
+        },
+        {
+          "action": "confirm_discrepancy",
+          "actor_role": "Sponsorship Analyst",
+          "date": "2026-10-20"
+        }
+      ],
+      "commercial_follow_up": {
+        "owner_role": "Commercial lead",
+        "next_action": "Assess whether to review a make-good.",
+        "status": "awaiting_commercial_decision"
+      },
+      "export_status": {
+        "example_record": "ready",
+        "sponsor_facing_distribution": "awaiting_commercial_approval"
+      }
+    },
+    {
+      "data_label": "DEMO · SIMULATED DATA",
+      "event": "Meridian Coast Cup · Harbor Vale FC vs. Eastmarsh Athletic",
+      "event_date": "2026-10-18",
+      "sponsor": "Northline",
+      "assigned_reviewer": {
+        "name": "Casey Noor",
+        "role": "Sponsorship Analyst"
+      },
+      "case_id": "PA-002",
+      "requirement": {
+        "agreement_id": "AGR-MCC-01",
+        "version": "v3",
+        "signed_date": "2026-10-01",
+        "term_id": "S-09",
+        "placement": "Display the Northline mark on the venue LED during the halftime slate.",
+        "required_feed": "Venue reference feed",
+        "required_source_id": "F-MCC-VEN-01",
+        "window": {
+          "start": "00:55:00",
+          "end": null
+        }
+      },
+      "sources": [
+        {
+          "id": "F-MCC-VEN-01",
+          "type": "recorded feed",
+          "name": "Venue reference feed",
+          "date": "2026-10-18",
+          "version": "v1",
+          "aspect_ratio": "16:9",
+          "available_range": {
+            "start": "00:45:00",
+            "end": "00:51:00"
+          },
+          "permission_status": "synthetic_preview_use_only"
+        },
+        {
+          "id": "ART-NL-01",
+          "type": "approved sponsor artwork",
+          "date": "2026-10-01",
+          "version": "v2",
+          "permission_status": "synthetic_preview_use_only"
+        }
+      ],
+      "proposed_finding": {
+        "state": "evidence_incomplete",
+        "origin": "simulated source coverage check",
+        "summary": "The supplied venue footage ends before the start of the required halftime slate.",
+        "source_ids": [
+          "F-MCC-VEN-01"
+        ],
+        "detections": []
+      },
+      "coverage": {
+        "status": "required_window_unobserved",
+        "source_id": "F-MCC-VEN-01"
+      },
+      "unresolved_gap": {
+        "needed": "Authorized venue LED capture covering the halftime slate starting at 00:55:00.",
+        "owner_role": "Media Measurement Operations Lead"
+      },
+      "reviewed_decision": {
+        "outcome": "open_evidence_incomplete",
+        "date": "2026-10-20",
+        "rationale": "The venue feed ends at 00:51:00. The supplied source cannot establish delivery for this requirement."
+      },
+      "decision_history": [
+        {
+          "action": "coverage_gap_identified",
+          "actor_role": "Simulated coverage check",
+          "date": "2026-10-20"
+        },
+        {
+          "action": "keep_open",
+          "actor_role": "Sponsorship Analyst",
+          "date": "2026-10-20"
+        }
+      ],
+      "commercial_follow_up": {
+        "owner_role": "Commercial lead",
+        "next_action": "Await authorized footage and further reviewer assessment.",
+        "status": "awaiting_evidence"
+      },
+      "export_status": {
+        "example_record": "ready_with_open_item",
+        "sponsor_facing_distribution": "pending_review"
+      }
+    }
+  ]
+}

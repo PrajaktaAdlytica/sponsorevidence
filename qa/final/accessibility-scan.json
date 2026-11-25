@@ -1,0 +1,2485 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "aria-prohibited-attr",
+        "targets": [
+          [
+            ".map-layers"
+          ]
+        ]
+      },
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".eyebrow[data-cinema-reveal=\"left\"]"
+          ],
+          [
+            "#cinema-title"
+          ],
+          [
+            ".cinema-deck"
+          ],
+          [
+            ".accent.btn[href$=\"demo\"]"
+          ],
+          [
+            ".white-outline.btn[href$=\"request\"]"
+          ],
+          [
+            ".monitor-head > span"
+          ],
+          [
+            "time"
+          ],
+          [
+            ".monitor-foot > span"
+          ],
+          [
+            ".monitor-foot > small"
+          ],
+          [
+            ".cinema-cue > span"
+          ],
+          [
+            "button:nth-child(1) > .feed-number"
+          ],
+          [
+            ".map-layers > button:nth-child(2)"
+          ],
+          [
+            "button:nth-child(2) > .feed-number"
+          ],
+          [
+            ".map-layers > button:nth-child(3)"
+          ],
+          [
+            "button:nth-child(3) > .feed-number"
+          ],
+          [
+            ".map-coordinate"
+          ],
+          [
+            ".comparison-board > .players > .shot:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".comparison-board > .players > .vertical-shot.shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".proof-art > .shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(1)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(2)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(3)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".offer-art > .clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".offer-art > .clause-art > .artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".workbench-media > .players > .shot:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".workbench-media > .players > .vertical-shot.shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".grass-motion > .wrap > .section-lead > .eyebrow[data-reveal=\"up\"]"
+          ],
+          [
+            ".grass-motion > .wrap > .section-lead > h2"
+          ],
+          [
+            ".grass-motion > .wrap > .section-lead > .lead-copy[data-reveal=\"right\"]"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .product-text > h3"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .product-text > p:nth-child(4)"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .micro"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > h3"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > p"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > .discrepancy.status"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".card-link.text-link[href$=\"rights-holders\"]"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .product-text > h3"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .product-text > p:nth-child(4)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .micro"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(1)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(2)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(3)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .card-link.text-link"
+          ],
+          [
+            ".wrap > .card-grid > .mint.product-card > .product-text > h3"
+          ],
+          [
+            ".wrap > .card-grid > .mint.product-card > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .mint.product-card > .product-text > p:nth-child(4)"
+          ],
+          [
+            ".offer-art > .compact-map.stadium > .map-caption > strong"
+          ],
+          [
+            ".offer-art > .compact-map.stadium > .map-caption > span:nth-child(2)"
+          ],
+          [
+            ".offer-art > .compact-map.stadium > .map-caption > span:nth-child(3)"
+          ],
+          [
+            ".card-link.text-link[href$=\"production-partners\"]"
+          ],
+          [
+            ".close > .split.wrap > .section-lead > h2"
+          ],
+          [
+            ".close > .split.wrap > .section-lead > .lead-copy[data-reveal=\"right\"]"
+          ],
+          [
+            ".section-lead > .actions > .white-outline.btn[href$=\"demo\"]"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/sponsor-assets",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".product-stage > .product-scene > .scene-heading > div > .scene-label.micro"
+          ],
+          [
+            ".product-stage > .product-scene > .scene-heading > .scene-demo"
+          ],
+          [
+            ".scene-filter:nth-child(1)"
+          ],
+          [
+            ".scene-filter:nth-child(2)"
+          ],
+          [
+            "figure > strong"
+          ],
+          [
+            "figcaption"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(1) > dt"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(1) > dd"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(2) > dt"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(2) > dd"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(3) > dt"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(3) > dd"
+          ],
+          [
+            ".good"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".sky > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".chart-art > .micro"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".wheat > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".report-art > .micro"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".discrepancy"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/exposure-analytics",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".product-stage > .product-scene > .scene-heading > div > .scene-label.micro"
+          ],
+          [
+            ".product-stage > .product-scene > .scene-heading > .scene-demo"
+          ],
+          [
+            ".scene-filter:nth-child(1)"
+          ],
+          [
+            ".scene-filter:nth-child(2)"
+          ],
+          [
+            ".scene-filter:nth-child(3)"
+          ],
+          [
+            "figcaption > strong"
+          ],
+          [
+            "figcaption > span"
+          ],
+          [
+            ".sponsor-overlay"
+          ],
+          [
+            ".sponsor-overlay > small"
+          ],
+          [
+            ".clip-time"
+          ],
+          [
+            ".exposure-readout > .micro"
+          ],
+          [
+            ".exposure-readout > p"
+          ],
+          [
+            ".exposure-timeline > .timeline > .time-labels > span:nth-child(1)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .time-labels > span:nth-child(2)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .time-labels > span:nth-child(3)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".scene-end > span:nth-child(1)"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".mint > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".asset-art > .micro"
+          ],
+          [
+            ".mark-specimens > span:nth-child(1)"
+          ],
+          [
+            ".mark-specimens > span:nth-child(2)"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".wheat > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".report-art > .micro"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".status"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/placement-audit",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".scene-label"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            ".scene-filter:nth-child(1)"
+          ],
+          [
+            ".scene-filter:nth-child(2)"
+          ],
+          [
+            "div[data-selected=\"false\"] > figure > figcaption > strong"
+          ],
+          [
+            "div[data-selected=\"false\"] > figure > figcaption > span"
+          ],
+          [
+            ".sponsor-overlay"
+          ],
+          [
+            ".sponsor-overlay > small"
+          ],
+          [
+            "div[data-selected=\"false\"] > figure > .shot-frame > .clip-time"
+          ],
+          [
+            "div[data-selected=\"true\"] > .vertical-shot > figcaption > strong"
+          ],
+          [
+            "div[data-selected=\"true\"] > .vertical-shot > figcaption > span"
+          ],
+          [
+            "div[data-selected=\"true\"] > .vertical-shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".audit-note > div > .micro"
+          ],
+          [
+            ".audit-note > .pending.status"
+          ],
+          [
+            "div:nth-child(1) > dt"
+          ],
+          [
+            "div:nth-child(2) > dt"
+          ],
+          [
+            ".scene-end > span:nth-child(1)"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".players > figure:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".players > .vertical-shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".mint > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".asset-art > .micro"
+          ],
+          [
+            ".mark-specimens > span:nth-child(1)"
+          ],
+          [
+            ".mark-specimens > span:nth-child(2)"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".sky > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".chart-art > .micro"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".wheat > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".report-art > .micro"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".discrepancy"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/sponsor-report",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".product-stage > .product-scene > .scene-heading > div > .scene-label.micro"
+          ],
+          [
+            ".product-stage > .product-scene > .scene-heading > .scene-demo"
+          ],
+          [
+            ".scene-filter[type=\"button\"]:nth-child(1)"
+          ],
+          [
+            ".scene-filter[type=\"button\"]:nth-child(2)"
+          ],
+          [
+            "figcaption"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(1) > .micro"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(1) > strong"
+          ],
+          [
+            "li:nth-child(1) > .discrepancy.status"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(2) > .micro"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(2) > strong"
+          ],
+          [
+            ".pending"
+          ],
+          [
+            ".scene-end > span:nth-child(1)"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".mint > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".asset-art > .micro"
+          ],
+          [
+            ".mark-specimens > span:nth-child(1)"
+          ],
+          [
+            ".mark-specimens > span:nth-child(2)"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".sky > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".chart-art > .micro"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "aria-prohibited-attr",
+        "targets": [
+          [
+            ".map-layers"
+          ]
+        ]
+      },
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            ".map-layers > button:nth-child(1)"
+          ],
+          [
+            "button:nth-child(1) > .feed-number"
+          ],
+          [
+            ".map-layers > button:nth-child(2)"
+          ],
+          [
+            "button:nth-child(2) > .feed-number"
+          ],
+          [
+            "button:nth-child(3)"
+          ],
+          [
+            "button:nth-child(3) > .feed-number"
+          ],
+          [
+            ".map-coordinate"
+          ],
+          [
+            ".atlas-feed-map > figure > figcaption > strong"
+          ],
+          [
+            ".atlas-feed-map > figure > figcaption > span:nth-child(2)"
+          ],
+          [
+            ".atlas-feed-map > figure > figcaption > span:nth-child(3)"
+          ],
+          [
+            ".role-path-link[href$=\"rights-holders\"][data-exhibit-reveal=\"up\"] > span"
+          ],
+          [
+            ".role-path-link[data-exhibit-reveal=\"up\"]:nth-child(2) > span"
+          ],
+          [
+            ".role-path-link[href$=\"production-partners\"][data-exhibit-reveal=\"up\"] > span"
+          ],
+          [
+            ".offer-art > .report-art > .micro"
+          ],
+          [
+            ".offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".offer-art > .report-art > .report-grid > div > .status.discrepancy"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".chart-art > .micro"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".compact-map > figcaption > strong"
+          ],
+          [
+            ".compact-map > figcaption > span:nth-child(2)"
+          ],
+          [
+            ".compact-map > figcaption > span:nth-child(3)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions/rights-holders",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > .shot > figcaption > strong"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > .shot > figcaption > span"
+          ],
+          [
+            ".sponsor-overlay"
+          ],
+          [
+            ".sponsor-overlay > small"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > .shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".vertical-shot > figcaption > strong"
+          ],
+          [
+            ".vertical-shot > figcaption > span"
+          ],
+          [
+            ".vertical-shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".rights-clause > div > .micro"
+          ],
+          [
+            ".status"
+          ],
+          [
+            ".editorial-feature[data-reveal=\"right\"] > h3"
+          ],
+          [
+            ".chart-art > .micro"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".product-card.sky > .card-link.text-link"
+          ],
+          [
+            ".map-caption > strong"
+          ],
+          [
+            ".map-caption > span:nth-child(2)"
+          ],
+          [
+            ".map-caption > span:nth-child(3)"
+          ],
+          [
+            ".card-link.text-link[href$=\"production-partners\"]"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions/measurement-agencies",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > dt"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > dd"
+          ],
+          [
+            "div[data-exhibit-reveal=\"right\"] > dt"
+          ],
+          [
+            "div[data-exhibit-reveal=\"right\"] > dd"
+          ],
+          [
+            ".product-card.wheat > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".report-art > .micro"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".status"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".card-link.text-link[href$=\"rights-holders\"]"
+          ],
+          [
+            "figcaption > strong"
+          ],
+          [
+            "figcaption > span:nth-child(2)"
+          ],
+          [
+            "figcaption > span:nth-child(3)"
+          ],
+          [
+            ".card-link.text-link[href$=\"production-partners\"]"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions/production-partners",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            ".product-card.wheat > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".report-art > .micro"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".status"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".card-link.text-link[href$=\"rights-holders\"]"
+          ],
+          [
+            ".chart-art > .micro"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".product-card.sky > .card-link.text-link"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/demo",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/demo/placement-audit",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "figure:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".vertical-shot > .shot-frame > .clip-time"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/demo/buyer-account",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/evaluation",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/evaluation/request",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "textarea"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/pricing",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            "li[data-exhibit-reveal=\"left\"] > div > .micro"
+          ],
+          [
+            "li[data-exhibit-reveal=\"left\"] > .journey-price"
+          ],
+          [
+            "li[data-exhibit-reveal=\"right\"] > div > .micro"
+          ],
+          [
+            "li[data-exhibit-reveal=\"right\"] > .journey-price"
+          ],
+          [
+            ".journey-price > small"
+          ],
+          [
+            ".price > small"
+          ],
+          [
+            "p:nth-child(4) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/resources/methodology",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/resources/sources",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/trust",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/about",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".micro"
+          ],
+          [
+            "li[data-exhibit-reveal=\"up\"]:nth-child(1) > span"
+          ],
+          [
+            "li[data-exhibit-reveal=\"up\"]:nth-child(2) > span"
+          ],
+          [
+            "li[data-exhibit-reveal=\"up\"]:nth-child(3) > span"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/contact",
+    "width": 1440,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "textarea"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/sign-in",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/privacy",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/terms",
+    "width": 1440,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "aria-prohibited-attr",
+        "targets": [
+          [
+            ".map-layers"
+          ]
+        ]
+      },
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".eyebrow[data-cinema-reveal=\"left\"]"
+          ],
+          [
+            "#cinema-title"
+          ],
+          [
+            ".cinema-deck"
+          ],
+          [
+            ".accent.btn[href$=\"demo\"]"
+          ],
+          [
+            ".white-outline.btn[href$=\"request\"]"
+          ],
+          [
+            ".monitor-head > span"
+          ],
+          [
+            "time"
+          ],
+          [
+            ".monitor-foot > span"
+          ],
+          [
+            ".monitor-foot > small"
+          ],
+          [
+            ".cinema-cue > span"
+          ],
+          [
+            "a[href$=\"#products\"]"
+          ],
+          [
+            "nav[aria-label=\"Homepage chapters\"] > a[href$=\"#audit\"]"
+          ],
+          [
+            "button:nth-child(1) > .feed-number"
+          ],
+          [
+            ".map-layers > button:nth-child(2)"
+          ],
+          [
+            "button:nth-child(2) > .feed-number"
+          ],
+          [
+            ".map-layers > button:nth-child(3)"
+          ],
+          [
+            "button:nth-child(3) > .feed-number"
+          ],
+          [
+            ".map-coordinate"
+          ],
+          [
+            ".comparison-board > .players > .shot:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".comparison-board > .players > .vertical-shot.shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".proof-art > .shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(1)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(2)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(3)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".atlas-track > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".offer-art > .clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".offer-art > .clause-art > .artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".atlas-track > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".workbench-media > .players > .shot:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".workbench-media > .players > .vertical-shot.shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".grass-motion > .wrap > .section-lead > .eyebrow[data-reveal=\"up\"]"
+          ],
+          [
+            ".grass-motion > .wrap > .section-lead > h2"
+          ],
+          [
+            ".grass-motion > .wrap > .section-lead > .lead-copy[data-reveal=\"right\"]"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .product-text > h3"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .product-text > p:nth-child(4)"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .micro"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > h3"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > p"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .report-grid > div > .discrepancy.status"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".wrap > .card-grid > .wheat.product-card > .offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".card-link.text-link[href$=\"rights-holders\"]"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .product-text > h3"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .product-text > p:nth-child(4)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .micro"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(1)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(2)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .time-labels > span:nth-child(3)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .offer-art > .chart-art > .timeline > .track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".wrap > .card-grid > .sky.product-card > .card-link.text-link"
+          ],
+          [
+            ".wrap > .card-grid > .mint.product-card > .product-text > h3"
+          ],
+          [
+            ".wrap > .card-grid > .mint.product-card > .product-text > p:nth-child(3) > strong"
+          ],
+          [
+            ".wrap > .card-grid > .mint.product-card > .product-text > p:nth-child(4)"
+          ],
+          [
+            ".offer-art > .compact-map.stadium > .map-caption > strong"
+          ],
+          [
+            ".offer-art > .compact-map.stadium > .map-caption > span:nth-child(2)"
+          ],
+          [
+            ".card-link.text-link[href$=\"production-partners\"]"
+          ],
+          [
+            "tr:nth-child(1) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(1) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(2) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(2) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(3) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(3) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(4) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(4) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(5) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(5) > td:nth-child(4)"
+          ],
+          [
+            ".close > .split.wrap > .section-lead > h2"
+          ],
+          [
+            ".close > .split.wrap > .section-lead > .lead-copy[data-reveal=\"right\"]"
+          ],
+          [
+            ".section-lead > .actions > .white-outline.btn[href$=\"demo\"]"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/sponsor-assets",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".product-stage > .product-scene > .scene-heading > .scene-demo"
+          ],
+          [
+            "figure > strong"
+          ],
+          [
+            "figcaption"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(1) > dt"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(1) > dd"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(2) > dt"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(2) > dd"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(3) > dt"
+          ],
+          [
+            ".product-stage > .product-scene > dl > div:nth-child(3) > dd"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/exposure-analytics",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".product-stage > .product-scene > .scene-heading > div > .scene-label.micro"
+          ],
+          [
+            ".product-stage > .product-scene > .scene-heading > .scene-demo"
+          ],
+          [
+            "figcaption > strong"
+          ],
+          [
+            "figcaption > span"
+          ],
+          [
+            ".sponsor-overlay"
+          ],
+          [
+            ".sponsor-overlay > small"
+          ],
+          [
+            ".clip-time"
+          ],
+          [
+            ".exposure-readout > .micro"
+          ],
+          [
+            ".exposure-timeline > .timeline > .time-labels > span:nth-child(1)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .time-labels > span:nth-child(2)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .time-labels > span:nth-child(3)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".exposure-timeline > .timeline > .track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".scene-end > span:nth-child(1)"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/placement-audit",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".scene-demo"
+          ],
+          [
+            "div[data-selected=\"false\"] > figure > figcaption > strong"
+          ],
+          [
+            "div[data-selected=\"false\"] > figure > figcaption > span"
+          ],
+          [
+            ".sponsor-overlay"
+          ],
+          [
+            ".sponsor-overlay > small"
+          ],
+          [
+            "div[data-selected=\"false\"] > figure > .shot-frame > .clip-time"
+          ],
+          [
+            "div[data-selected=\"true\"] > .vertical-shot > figcaption > strong"
+          ],
+          [
+            "div[data-selected=\"true\"] > .vertical-shot > figcaption > span"
+          ],
+          [
+            "div[data-selected=\"true\"] > .vertical-shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".audit-note > div > .micro"
+          ],
+          [
+            ".audit-note > .pending.status"
+          ],
+          [
+            "div:nth-child(1) > dt"
+          ],
+          [
+            "div:nth-child(1) > dd"
+          ],
+          [
+            "div:nth-child(2) > dt"
+          ],
+          [
+            "div:nth-child(2) > dd"
+          ],
+          [
+            ".scene-end > span:nth-child(1)"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".players > figure:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".players > .vertical-shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/platform/sponsor-report",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".product-stage > .product-scene > .scene-heading > .scene-demo"
+          ],
+          [
+            "figcaption"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(1) > .micro"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(1) > strong"
+          ],
+          [
+            "li:nth-child(1) > .discrepancy.status"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(2) > .micro"
+          ],
+          [
+            ".report-summary > .report-outcomes > li:nth-child(2) > strong"
+          ],
+          [
+            ".pending"
+          ],
+          [
+            ".scene-end > span:nth-child(1)"
+          ],
+          [
+            ".scene-end > span:nth-child(2)"
+          ],
+          [
+            ".asset-art > .artifact-rule > span"
+          ],
+          [
+            ".asset-art > .artifact-rule > strong"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".clause-art > .artifact-rule > span:nth-child(1)"
+          ],
+          [
+            ".artifact-rule > span:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "aria-prohibited-attr",
+        "targets": [
+          [
+            ".map-layers"
+          ]
+        ]
+      },
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            ".map-layers > button:nth-child(1)"
+          ],
+          [
+            "button:nth-child(1) > .feed-number"
+          ],
+          [
+            ".map-layers > button:nth-child(2)"
+          ],
+          [
+            "button:nth-child(2) > .feed-number"
+          ],
+          [
+            "button:nth-child(3)"
+          ],
+          [
+            "button:nth-child(3) > .feed-number"
+          ],
+          [
+            ".map-coordinate"
+          ],
+          [
+            ".atlas-feed-map > figure > figcaption > strong"
+          ],
+          [
+            ".atlas-feed-map > figure > figcaption > span:nth-child(2)"
+          ],
+          [
+            ".role-path-link[href$=\"rights-holders\"][data-exhibit-reveal=\"up\"] > span"
+          ],
+          [
+            ".role-path-link[data-exhibit-reveal=\"up\"]:nth-child(2) > span"
+          ],
+          [
+            ".role-path-link[href$=\"production-partners\"][data-exhibit-reveal=\"up\"] > span"
+          ],
+          [
+            ".offer-art > .report-art > .report-grid > div > .micro"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".offer-art > .report-art > .artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".compact-map > figcaption > strong"
+          ],
+          [
+            ".compact-map > figcaption > span:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions/rights-holders",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > .shot > figcaption > strong"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > .shot > figcaption > span"
+          ],
+          [
+            ".sponsor-overlay"
+          ],
+          [
+            ".sponsor-overlay > small"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > .shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".vertical-shot > figcaption > strong"
+          ],
+          [
+            ".vertical-shot > figcaption > span"
+          ],
+          [
+            ".vertical-shot > .shot-frame > .clip-time"
+          ],
+          [
+            ".rights-clause > div > .micro"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            ".map-caption > strong"
+          ],
+          [
+            ".map-caption > span:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions/measurement-agencies",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ],
+          [
+            "div[data-exhibit-reveal=\"left\"] > dt"
+          ],
+          [
+            "div[data-exhibit-reveal=\"right\"] > dt"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            "figcaption > strong"
+          ],
+          [
+            "figcaption > span:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/solutions/production-partners",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            ".exhibit-heading > div > .micro"
+          ],
+          [
+            ".scene-demo"
+          ],
+          [
+            ".report-grid > div > .micro"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(4) > strong"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > span"
+          ],
+          [
+            ".artifact-rule:nth-child(5) > strong"
+          ],
+          [
+            ".time-labels > span:nth-child(1)"
+          ],
+          [
+            ".time-labels > span:nth-child(2)"
+          ],
+          [
+            ".time-labels > span:nth-child(3)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(3) > span:nth-child(2)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(1)"
+          ],
+          [
+            ".track-label:nth-child(5) > span:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/demo",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/demo/placement-audit",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "figure:nth-child(1) > .shot-frame > .clip-time"
+          ],
+          [
+            ".vertical-shot > .shot-frame > .clip-time"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/demo/buyer-account",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/evaluation",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "tr:nth-child(1) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(1) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(2) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(2) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(3) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(3) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(4) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(4) > td:nth-child(4)"
+          ],
+          [
+            "tr:nth-child(5) > td:nth-child(3)"
+          ],
+          [
+            "tr:nth-child(5) > td:nth-child(4)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/evaluation/request",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "textarea"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/pricing",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "li[data-exhibit-reveal=\"left\"] > div > .micro"
+          ],
+          [
+            "li[data-exhibit-reveal=\"right\"] > div > .micro"
+          ],
+          [
+            ".price > small"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/resources/methodology",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/resources/sources",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/trust",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/about",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "li[data-exhibit-reveal=\"up\"]:nth-child(1) > span"
+          ],
+          [
+            "li[data-exhibit-reveal=\"up\"]:nth-child(2) > span"
+          ],
+          [
+            "li[data-exhibit-reveal=\"up\"]:nth-child(3) > span"
+          ],
+          [
+            "article[data-reveal=\"left\"] > h3"
+          ],
+          [
+            "article:nth-child(2) > h3"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/contact",
+    "width": 390,
+    "violations": [],
+    "needsReview": [
+      {
+        "rule": "color-contrast",
+        "targets": [
+          [
+            "textarea"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/sign-in",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/privacy",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  },
+  {
+    "route": "/terms",
+    "width": 390,
+    "violations": [],
+    "needsReview": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "heroMeta": {
+    "duration": 8,
+    "width": 1440,
+    "muted": true
+  },
+  "left": {
+    "incoming": -18.8734,
+    "centered": 0,
+    "outgoing": 27.298,
+    "reverse": 0
+  },
+  "right": {
+    "incoming": 18.8734,
+    "centered": 0,
+    "outgoing": -27.298,
+    "reverse": 0
+  },
+  "pitch": {
+    "first": 1.625,
+    "later": 4.041666,
+    "rewind": 1.75
+  },
+  "disabledStopsPlayback": true,
+  "reducedLoadsNoVideo": true,
+  "mobilePlayback": true,
+  "errors": []
+}

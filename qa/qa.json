@@ -1,0 +1,30 @@
+{
+  "routes": 24,
+  "fonts": {
+    "title": "\"DM Serif Display\", Georgia, serif",
+    "body": "Manrope, Arial, sans-serif",
+    "loaded": [
+      [
+        "DM Serif Display",
+        "loaded"
+      ],
+      [
+        "Manrope",
+        "loaded"
+      ]
+    ]
+  },
+  "atlasTranslateX": -453.987,
+  "errors": [],
+  "passed": [
+    "map source selected",
+    "desktop atlas scroll and controls",
+    "motion toggle",
+    "review decision",
+    "open case",
+    "JSON download",
+    "local pilot form",
+    "mobile menu",
+    "responsive overflow"
+  ]
+}
